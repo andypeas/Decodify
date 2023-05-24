@@ -1,0 +1,108 @@
+body {
+    background-color: #AAB2D5;
+    font-family: 'Courier Prime', monospace;
+    color: #292929;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    margin: 50px 0 0 25px;
+    font-size: 48px;  
+}
+
+header h1 a {
+    color: #292929;
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px auto;   
+    width: 90%;
+}
+
+main div {
+    text-align: center;
+}
+
+main div textarea {
+    width: 90%;
+    height: 350px;
+    padding: 10px;
+    background: #E0E0E0;
+    border: 3px solid rgba(79, 48, 111, 0.5);
+    font-family: 'Courier Prime';
+    font-size: 24px;    
+    text-transform: lowercase;
+    resize: none;
+    outline: none;
+}
+
+main div .texto:focus {
+    border-color: rgb(79, 48, 111);
+    background: #ffffffc4;
+}
+
+main div h6 {
+    font-size: 16px;
+}
+
+main div button {
+    background: #E0E0E0;
+    border: 3px solid rgba(79, 48, 111, 0.5);
+    box-shadow: 5px 5px 0px rgba(79, 48, 111, 0.25);
+    font-family: 'Courier Prime';
+    font-size: 20px;
+    color: #292929;
+    cursor: pointer;
+    width: 250px;
+    padding: 10px 0;   
+}
+
+main div button:hover {
+    border-color: rgb(79, 48, 111);
+    background: #ffffffc4;
+    color: #000000;
+    font-weight: 600;  
+}
+
+main div button:active {
+    border-color: rgba(79, 48, 111, 0.8);
+    background: #ffffffa4;
+    font-weight: 400;
+}
+
+footer {
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center; 
+    font-size: 16px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #292929;
+    font-weight: 600;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+footer a:active {
+    color: #292929;
+}
+
+::selection {
+    color: #292929;
+    background: rgba(79, 48, 111, 0.25);
+}
+
+::-moz-selection { 
+    color: #292929;
+    background: rgba(79, 48, 111, 0.25);
+}

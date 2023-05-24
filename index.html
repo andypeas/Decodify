@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{de}codify</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">{de}codify</a></h1>
+    </header>
+
+    <main> 
+        <div>
+            <textarea class="texto" placeholder="digite seu texto..." autofocus></textarea>
+            <h6>Apenas letras minúsculas e sem acento!</h6>
+        </div>
+
+        <div>
+            <textarea class="mensagem" readonly></textarea>
+        </div>
+
+        <div>
+            <button onclick="btnEncriptar()">Criptografar</button>
+            <button onclick="btnDesencriptar()">Descriptografar</button>
+        </div>
+
+        <div>
+            <button class="copiar">Copiar</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Anderson Assunção</p>
+        <p><a href="https://www.github.com/andypeas" target="_blank">GitHub</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
