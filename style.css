@@ -73,6 +73,7 @@ main div button:active {
     border-color: rgba(79, 48, 111, 0.8);
     background: #ffffffa4;
     font-weight: 400;
+    box-shadow: none;
 }
 
 footer {
