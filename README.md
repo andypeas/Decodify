@@ -1,4 +1,4 @@
-# Decodify
+# Decodify 
 
 ### Codificador/Decodificador de textos
 
@@ -13,3 +13,9 @@
 Em desenvolvimento...
 
 ### Acesse o [projeto online](https://andypeas.github.io/Decodify/)
+
+---
+
+<div align="center">
+  <img src="./Badge.png" alt="Badge" title="Badge" width="300"/>
+</div>
