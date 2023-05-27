@@ -10,6 +10,7 @@ body {
 header h1 {
     margin: 50px 0 0 25px;
     font-size: 48px;  
+    user-select: none;
 }
 
 header h1 a {
@@ -46,6 +47,7 @@ main div .texto:focus {
 
 main div h6 {
     font-size: 16px;
+    user-select: none;
 }
 
 main div button {
@@ -56,6 +58,7 @@ main div button {
     font-size: 20px;
     color: #292929;
     cursor: pointer;
+    user-select: none;
     width: 250px;
     padding: 10px 0;   
     margin-bottom: 10px;
@@ -86,6 +89,7 @@ footer a {
     text-decoration: none;
     color: #292929;
     font-weight: 600;
+    user-select: none;
 }
 
 footer a:hover {
