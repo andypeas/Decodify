@@ -22,9 +22,6 @@ main {
     grid-template-columns: 1fr 1fr;
     margin: 50px auto;   
     width: 100%;
-}
-
-main div {
     text-align: center;
 }
 
