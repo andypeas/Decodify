@@ -45,7 +45,7 @@ main div .texto:focus {
     background: #ffffffc4;
 }
 
-main div h6 {
+main div p {
     user-select: none;
 }
 
