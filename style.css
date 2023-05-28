@@ -59,9 +59,10 @@ main div button {
     color: #292929;
     cursor: pointer;
     user-select: none;
-    width: 250px;
-    padding: 10px 0;   
-    margin-bottom: 10px;
+    width: 40%;
+    min-width: 200px;
+    padding: 10px 10px;   
+    margin: 0 5px 10px;
 }
 
 main div button:hover {
