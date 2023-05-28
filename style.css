@@ -46,7 +46,6 @@ main div .texto:focus {
 }
 
 main div h6 {
-    font-size: 16px;
     user-select: none;
 }
 
@@ -83,7 +82,6 @@ footer {
     margin: auto;
     margin-bottom: 1%;
     text-align: center; 
-    font-size: 16px;
 }
 
 footer a {
