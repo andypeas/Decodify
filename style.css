@@ -40,7 +40,7 @@ main div textarea {
     outline: none;
 }
 
-main div .texto:focus {
+main div .text:focus {
     border-color: rgb(79, 48, 111);
     background: #ffffffc4;
 }
